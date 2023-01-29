@@ -369,7 +369,6 @@ class Analyzer:
         self.__make_filtered_list(start_dt, end_dt, asset_info_list, self.asset_info_list)
         self.__make_filtered_list(start_dt, end_dt, result_list, self.result_list)
         self.__make_filtered_list(start_dt, end_dt, spot_list, self.spot_list)
-
         return (asset_info_list, score_list, info_list, result_list, spot_list)
 
     @staticmethod
